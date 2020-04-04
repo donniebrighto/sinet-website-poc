@@ -1,8 +1,7 @@
 ---
 template: BlogIndex
-title: News
+title: Instalacje fotowoltaiczne
 subtitle: ''
-featuredImage: >-
-  https://ucarecdn.com/db0b1431-8739-426f-970d-8a80eacf02ef/-/preview/-/rotate/270/
+featuredImage: 'https://ucarecdn.com/16e38d33-d76f-421c-ac95-b9e7143099e0/'
 ---
 
