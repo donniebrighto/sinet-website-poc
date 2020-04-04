@@ -49,7 +49,7 @@ export class Navigation extends Component {
             <Logo />
           </Link>
           <div className="Nav--Links">
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/">Strona główna</NavLink>
             <NavLink to="/components/">Components</NavLink>
             <div
               className={`Nav--Group ${
@@ -66,10 +66,10 @@ export class Navigation extends Component {
                 }`}
                 onClick={() => this.toggleSubNav('posts')}
               >
-                Blog
+                Portfolio
                 <div className="Nav--GroupLinks">
                   <NavLink to="/blog/" className="Nav--GroupLink">
-                    All Posts
+                    Wszystko
                   </NavLink>
                   {subNav.posts.map((link, index) => (
                     <NavLink

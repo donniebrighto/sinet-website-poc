@@ -17,13 +17,13 @@ media_library:
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'pages'
-    label: 'Page'
+    label: 'Strony'
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: true
     files:
       - file: 'content/pages/contact.md'
-        label: 'Contact Page'
+        label: 'Kontakt'
         name: 'contact-page'
         fields:
           - {
@@ -99,8 +99,8 @@ collections: # A list of collections the CMS should be able to edit
                 }
 
       - file: 'content/pages/blog.md'
-        label: 'Blog Page'
-        name: 'blog-page'
+        label: 'Portfolio'
+        name: 'portfolio'
         fields:
           - {
               label: Template,
@@ -108,7 +108,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: BlogIndex,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'blog' }
+          - { label: Slug, name: slug, widget: hidden, default: 'portfolio' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
@@ -195,7 +195,7 @@ collections: # A list of collections the CMS should be able to edit
                 }
 
       - file: 'content/pages/home.md'
-        label: 'Home Page'
+        label: 'Strona główna'
         name: 'home-page'
         fields:
           - {
@@ -242,7 +242,7 @@ collections: # A list of collections the CMS should be able to edit
                 }
 
   - name: infoPages
-    label: Info Page
+    label: Dodatkowe strony
     editor:
       preview: true
     folder: content/infoPages
@@ -335,7 +335,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Noindex, name: noindex, widget: boolean, required: false }
 
   - name: postCategories
-    label: Post Category
+    label: Kategorie postów
     editor:
       preview: false
     folder: content/postCategories
