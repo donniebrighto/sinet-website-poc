@@ -77,21 +77,21 @@ class Form extends React.Component {
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Firstname"
+                placeholder="Imie"
                 name="firstname"
                 required
               />
-              <span>Firstname</span>
+              <span>Imie</span>
             </label>
             <label className="Form--Label">
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Lastname"
+                placeholder="Nazwisko"
                 name="lastname"
                 required
               />
-              <span>Lastname</span>
+              <span>Nazwisko</span>
             </label>
           </div>
           <fieldset>
@@ -123,21 +123,22 @@ class Form extends React.Component {
               name="emailAddress"
               required
             />
-            <span>Email address</span>
+            <span>Email</span>
           </label>
           <label className="Form--Label has-arrow">
             <select
               className="Form--Input Form--Select"
               name="type"
-              defaultValue="Type of Enquiry"
+              defaultValue="Rodzaj sprawy"
               required
             >
               <option disabled hidden>
-                Type of Enquiry
+                Rodzaj sprawy
               </option>
-              <option>Need to know more</option>
-              <option>Found a bug</option>
-              <option>Want to say hello</option>
+              <option>Wycena</option>
+              <option>Oferta współpracy</option>
+              <option>Zamówienie</option>
+              <option>Inne</option>
             </select>
           </label>
           <label className="Form--Label">
@@ -148,15 +149,7 @@ class Form extends React.Component {
               rows="10"
               required
             />
-            <span>Message</span>
-          </label>
-          <label className="Form--Label Form-Checkbox">
-            <input
-              className="Form--Input Form--Textarea Form--CheckboxInput"
-              name="newsletter"
-              type="checkbox"
-            />
-            <span>Get news updates</span>
+            <span>Wiadomość</span>
           </label>
           <div
             className="g-recaptcha"
@@ -167,7 +160,7 @@ class Form extends React.Component {
           <input
             className="Button Form--SubmitButton"
             type="submit"
-            value="Enquire"
+            value="Wyślij"
             disabled={this.state.disabled}
           />
         </form>
