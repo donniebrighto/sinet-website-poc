@@ -1,7 +1,7 @@
 ---
 template: BlogIndex
-title: Updates
-subtitle: ''
-featuredImage: 'https://ucarecdn.com/83a3c73d-f234-4086-9fad-cee3a9626230/'
+title: Elektryka
+subtitle: 20-letnie doświadczenie w branży instalacji elektrycznych
+featuredImage: 'https://ucarecdn.com/0cd7c6d2-1733-4cdd-92f7-b14ddb220529/'
 ---
 
